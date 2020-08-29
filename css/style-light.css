@@ -5,18 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 html {
   background-color: #eeeeee;
 }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif ;
   font-size: 18px;
   line-height: 34px;
   background: #eeeeee;
@@ -45,7 +40,7 @@ p, figure {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 400;
   margin: 1.5em 0 1.5em 0;
 }
@@ -72,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -97,9 +92,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #ffab00;
+  background: #337ab7;
   color: #fff;
-  border: 2px solid #ffab00;
+  border: 2px solid #337ab7;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ffb31a !important;
@@ -107,11 +102,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #ffab00;
-  border: 2px solid #ffab00;
+  color: #337ab7;
+  border: 2px solid #337ab7;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #ffab00;
+  background: #337ab7;
   color: #fff;
 }
 
@@ -296,29 +291,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .fh5co-intro-text {
-  -webkit-transform: skewY(-7deg);
-  -moz-transform: skewY(-7deg);
-  -ms-transform: skewY(-7deg);
-  -o-transform: skewY(-7deg);
-  transform: skewY(-7deg);
+  transform: skewY(0deg) !important;
   text-align: center;
 }
 #fh5co-header h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 100px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 15px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  color: #000;
+  color: #888888;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 #fh5co-header h1 span {
-  font-family: "Playfair Display", Times, serif;
-  font-style: italic;
+  font-family:  "Montserrat", sans-serif;
+  font-style: normal;
   text-transform: none !important;
 }
 @media screen and (max-width: 1200px) {
@@ -399,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
-  color: #ffab00;
+  color: #337ab7 !important;
 }
 @media screen and (max-width: 480px) {
   .btn-next a i {
@@ -413,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.7);
 }
 .btn-next a:hover i {
-  color: #ffab00;
+  color: #337ab7;
 }
 
 .fh5co-bio-photo img {
@@ -690,7 +681,8 @@ h1, h2, h3, h4, h5, h6 {
   border-left: none;
 }
 .fh5co-testimony p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+
   font-size: 20px;
   line-height: 38px;
   font-style: italic;
@@ -966,11 +958,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #EEEEEE;
+  background: url(../images/rings.svg) center no-repeat #EEEEEE;
 }
 
 .js .animate-box {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style-light.css.map */

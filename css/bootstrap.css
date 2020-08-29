@@ -77,7 +77,7 @@ h1 {
 }
 
 mark {
-  background: #ff0;
+  background: blue;
   color: #000;
 }
 
@@ -7320,4 +7320,3 @@ button.close {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
