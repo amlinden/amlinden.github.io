@@ -147,7 +147,9 @@ a {
 p, figure {
 	margin-bottom: 1.5em;
 }
-
+.h3{
+	font-size: 18px;
+}
 h1, h2, h3, h4, h5, h6 {
 	color: $brand-black;
 	font-family: $font-primary;
@@ -396,6 +398,8 @@ h1, h2, h3, h4, h5, h6 {
 			font-family: $font-secondary;
 			font-style: italic;
 			text-transform: none!important;
+			color: black !important;
+
 		}
 
 		@include transition(.5s);
@@ -711,11 +715,14 @@ h1, h2, h3, h4, h5, h6 {
 		transform: skewY(-7deg);
 	}
 }
+.press{
+	border-radius: 3px;
+  }
 
 .fh5co-section-heading {
 	margin-top: 0px;
 	line-height: 38px;
-	font-size: 13px;
+	font-size: 13px !important;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	.fh5co-number {
