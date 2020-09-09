@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #337ab7;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -92,9 +92,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #337ab7;
+  background: #fff;
   color: #fff;
-  border: 2px solid #337ab7;
+  border: 2px solid #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ffb31a !important;
@@ -102,11 +102,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #337ab7;
-  border: 2px solid #337ab7;
+  color: #fff;
+  border: 2px solid #fff;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #337ab7;
+  background: #fff;
   color: #fff;
 }
 
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.3);
-  color: #337ab7;
+  color: #fff;
 }
 @media screen and (max-width: 480px) {
   .btn-next a i {
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 .btn-next a:hover i {
-  color: #337ab7;
+  color: #fff;
 }
 
 .fh5co-bio-photo img {
@@ -775,7 +775,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.5);
-  background: #337ab7;
+  background: #fff;
 }
 
 .flexslider {
